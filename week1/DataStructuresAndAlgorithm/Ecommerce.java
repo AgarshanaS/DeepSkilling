@@ -1,6 +1,6 @@
-
 import java.util.Arrays;
 import java.util.Comparator;
+
 class Product {
     int productId;
     String productName;
@@ -23,7 +23,8 @@ class SearchEngine {
         }
         return null;
     }
-        public static Product binarySearch(Product[] products, String targetName) {
+
+    public static Product binarySearch(Product[] products, String targetName) {
         int left = 0;
         int right = products.length - 1;
 
@@ -46,10 +47,10 @@ class SearchEngine {
 public class Ecommerce {
     public static void main(String[] args) {
         Product[] products = {
-            new Product(101, "Laptop", "Electronics"),
-            new Product(102, "Shirt", "Clothing"),
-            new Product(103, "Mobile", "Electronics"),
-            new Product(104, "Book", "Education")
+                new Product(101, "Laptop", "Electronics"),
+                new Product(102, "Shirt", "Clothing"),
+                new Product(103, "Mobile", "Electronics"),
+                new Product(104, "Book", "Education")
         };
 
         // Linear Search Test
