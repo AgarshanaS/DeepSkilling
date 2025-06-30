@@ -1,3 +1,9 @@
+/*
+Recursion is when a method calls itself to solve a smaller version of a problem.
+It simplifies problems that have repetitive or nested patterns, like:
+Calculating future values year by year
+Tree traversals, factorials, Fibonacci, etc.
+*/
 public class FinancialForecast {
 
     // Recursive method to calculate future value
