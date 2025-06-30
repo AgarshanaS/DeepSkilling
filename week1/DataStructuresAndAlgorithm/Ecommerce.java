@@ -1,19 +1,19 @@
 /*
  * Step 1: Understand Asymptotic Notation
  *
- * ➤ Big O Notation:
+ * Big O Notation:
  *    - Big O notation describes the performance (time or space) of an algorithm
  *      as the input size (n) grows.
  *    - It focuses on the upper bound (worst-case) of algorithm performance.
  *    - Helps compare different algorithms and optimize for scalability.
  *
- * ➤ Common Big O Examples:
+ * Common Big O Examples:
  *    - O(1)   → Constant time (array access)
  *    - O(n)   → Linear time (loop over array)
  *    - O(log n) → Logarithmic time (binary search)
  *    - O(n^2) → Quadratic time (nested loops)
  *
- * ➤ Search Operation Scenarios:
+ * Search Operation Scenarios:
  * 
  *    1. Linear Search:
  *       - Best Case:    O(1)    → Target is first element
