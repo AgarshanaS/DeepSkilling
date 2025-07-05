@@ -23,6 +23,5 @@ public class Employee {
         this.salary = salary;
     }
 
-    // Getters and Setters here
 }
 
